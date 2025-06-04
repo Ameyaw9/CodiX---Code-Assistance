@@ -1,1 +1,1 @@
-﻿# CodiX---Code-Assistance
+﻿# Code Assistance Service for SNET Onboarding Test
