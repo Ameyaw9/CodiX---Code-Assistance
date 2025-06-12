@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service codeassistant {
+  rpc AskQuestion(QuestionRequest) returns (AnswerResponse) {}
+}
+
+message QuestionRequest {
+  string question = 1;
+  string context = 2; // this is optional: for added context like category, etc.
+}
+
+message AnswerResponse {
+  string answer = 1;
+  bool success = 2;
+}
