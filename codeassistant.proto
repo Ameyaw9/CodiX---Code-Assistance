@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-service codixbot {
+service codeassistant {
   rpc AskQuestion(QuestionRequest) returns (AnswerResponse) {}
 }
 
